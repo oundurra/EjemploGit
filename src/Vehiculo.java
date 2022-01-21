@@ -2,8 +2,8 @@
 public class Vehiculo {
 	String marca;
 	
-	public Vehiculo() {
-		
+	public Vehiculo(String marca) {
+		this.marca = marca;
 	}
 	
 }
