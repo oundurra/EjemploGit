@@ -6,12 +6,18 @@ public class Principal {
 	public static void main(String[] args) {
 		Vehiculo autoelectrico = new AutoElectrico();
 		Vehiculo autodiesel = new AutoDiesel();
+		Vehiculo autohidrogeno = new AutoHidrogeno();
 		
 		autoelectrico.setRendimiento(32);
 		autodiesel.setRendimiento(20);
+		autohidrogeno.setRendimiento(100);
+
 		
 		System.out.println("El rendimiento del auto electrico es: " + autoelectrico.getRendimiento());
 		System.out.println("El rendimiento del auto diesel es: " + autodiesel.getRendimiento());
+		System.out.println("El rendimiento del auto a hidrógeno es: " + autohidrogeno.getRendimiento());
+
+		// ---------------------------------------
 		
 		Leaf auto1 = new Leaf();
 		auto1.setRendimiento(35);
